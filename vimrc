@@ -18,6 +18,7 @@ set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+let g:session_verbose_messages = 0
 let g:session_autosave = 'no'
 
 " This makes vim act like all other editors, buffers can
