@@ -12,6 +12,10 @@ elif [[ $unamestr == 'Darwin' ]]; then
   platform='darwin'
 fi
 
+# SSH Aliases
+alias ncloud="ssh -lroot 10.0.1.100 -p 5720"
+alias viet="ssh -lroot vietnam272nd.com"
+
 # YADR support
 alias yav='yadr vim-add-plugin'
 alias ydv='yadr vim-delete-plugin'
