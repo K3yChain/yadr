@@ -14,6 +14,7 @@ fi
 
 # SSH Aliases
 alias ncloud="ssh -lroot 10.0.1.100 -p 5720"
+alias nbackup='ssh -lroot 10.0.1.110 -p 5720'
 alias viet="ssh -lroot vietnam272nd.com"
 
 # YADR support
