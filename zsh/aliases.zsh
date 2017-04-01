@@ -16,6 +16,12 @@ fi
 alias ncloud="ssh -lroot 10.0.1.100 -p 5720"
 alias nbackup='ssh -lroot 10.0.1.110 -p 5720'
 alias viet="ssh -lroot vietnam272nd.com"
+alias edge="ssh -ladmin edge.k3ychain.net -p 5720"
+alias pingnc="ping 10.0.1.100"
+alias pingnb="ping 10.0.1.110"
+alias pingviet="ping vietnam272nd.com"
+alias pingedge="ping 10.0.1.1"
+alias pinglink="ping 10.0.1.200"
 
 # YADR support
 alias yav='yadr vim-add-plugin'
