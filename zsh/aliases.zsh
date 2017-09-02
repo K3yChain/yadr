@@ -15,7 +15,7 @@ fi
 # SSH Aliases
 alias ncloud="ssh -lroot 10.0.1.100 -p 5720"
 alias nbackup='ssh -lroot 10.0.1.110 -p 5720'
-alias viet="ssh -lroot vietnam272nd.com"
+alias viet="ssh -lroot vietnam272nd.com -p 5720"
 alias edge="ssh -ladmin edge.k3ychain.net -p 5720"
 alias pingnc="ping 10.0.1.100"
 alias pingnb="ping 10.0.1.110"
